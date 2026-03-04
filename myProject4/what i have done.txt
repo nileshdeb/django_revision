@@ -1,0 +1,7 @@
+Templates Folder Setup (App)
+
+-Create Project & App
+
+-App Level Template
+
+-SetUp HTML File
