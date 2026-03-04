@@ -1,0 +1,14 @@
+Templates Folder Setup (Project)
+
+1.What is Templates?
+-In Django, a template is an HTML file that defines how data should be displayed to the user in the browser.
+It allows you to separate the frontend (UI) from backend logic.
+So instead of writing HTML inside Python code, Django uses templates to render dynamic data.
+
+2.Templates Use Types.
+
+3.Project Level Template
+
+4.App Level Template
+
+5.Project Template SetUp
