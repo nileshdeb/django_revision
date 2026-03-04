@@ -1,0 +1,9 @@
+URL Parameters
+(path, re_path, kwargs)
+
+• Create Project & App
+• Install App in settings.py
+• Views with Parameters
+• URL Configurations
+• Project Main URLs
+• Testing
