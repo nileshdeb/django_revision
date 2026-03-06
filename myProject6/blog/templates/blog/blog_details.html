@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>#2 Template</title>
+</head>
+<body>
+    <h1>Blog Filter Page</h1>
+    <!-- Text Filter -->
+    <p><b>Title(Normal):</b>{{ post.title }}</p>
+    <p><b>Title(Uppercase):</b>{{ post.title|upper }}</p>
+    <p><b>Title(Lowercase):</b>{{ post.title|lower }}</p>
+    <p><b>Title(Titlecase):</b>{{ post.title|title }}</p>
+    <p><b>Title(Capfirst):</b>{{ post.title|capfirst }}</p>
+    <p><b>Title(Truncate):</b>{{ post.title|truncatechars:15 }}</p>
+    <p><b>Title(Truncate Words):</b>{{ post.title|truncatewords:2 }}</p>
+    <p><b>Title(Linebreaks):</b>{{ post.title|linebreaks }}</p>
+    <hr>
+    <!-- Add -->
+    <p><b>Original Price:</b>{{ post.price }}</p>
+    <p><b>Original Price(+5):</b>{{ post.price|add:5 }}</p>
+    <!-- Division By -->
+    {% if post.number|divisibleby:2%}
+    <p>{{post.number}} is even </p>
+    {% else %}
+    <p>{{post.number}} is odd</p>
+    {% endif %}
+    <!-- List Filter -->
+    <p><b>First Tag:</b>{{ post.tags|first }}</p>
+    <p><b>Total Tags:</b>{{ post.tags|length }}</p>
+    <p><b>Slice (first 2):</b>{{ post.tags|slice:":2" }} </p>
+    <p><b>Join Tags:</b>{{ post.tags|join:" " }}</p>
+    <hr>
+    <p>Author Available?: {{ post.author|yesno:"Yes,No,MayBe" }}</p>
+    <p>Comments Counts?:{{post.comments_count}} Comment{{post.comments_count|pluralize}}</p>
+    <hr/>
+    <!-- Date and time filters -->
+
+    <p><b>Created At:</b>{{ post.created_at }}</p>
+    <p><b>Formatted Date:</b>{{ post.created_at|date:"D d M Y" }}</p>
+    <p><b>Formatted Time:</b>{{ post.created_at|time:"H:i:s" }}</p>
+
+    <!-- Encoding and Formatting -->
+     <p><b>Title Encode:</b>{{ post.title|urlencode }}</p>
+     <p><b>Float Format Example:</b>{{123.3782678|floatformat:2}}</p>
+</body>
+</html>

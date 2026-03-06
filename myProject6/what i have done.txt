@@ -1,0 +1,14 @@
+Templates #2
+Filters (Text, Numbers, Date)
+
+Text Filters → upper, lower, title, capfirst, truncatechars, truncatewords, linebreaks
+
+Numbers Filters → add, divisibleby
+
+List Filters → first, last, length, slice, join
+
+Yes/No & plural → yesno, pluralize
+
+Date/Time Filters → date, time, timesince, timeuntil
+
+Encoding & formatting → urlencode, floatformat
