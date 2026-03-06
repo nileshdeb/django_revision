@@ -1,0 +1,16 @@
+Templates #1
+Basics & Variables
+
+Template setup (project + app structure)
+
+Rendering templates using views.py
+
+{{ variable }} basics
+
+Dictionary, list, object attributes access
+
+Nested variables ({{ user.profile.name }})
+
+Default values: default, default_if_none
+
+Safe vs autoescape (safe, escape)

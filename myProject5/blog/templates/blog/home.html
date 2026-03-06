@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>#1 Template Basic</title>
+</head>
+<body>
+    <h1>Template Basic</h1>
+    <p>This is a Simple Template to Demonstrate basic HTML structure</p>
+    <p>welcome to blog home page!</p>
+    <!-- single variable -->
+    <p>Name: {{ name }}</p>
+    <p>Age: {{ age }}</p>
+    <!-- List Access -->
+    <p>Skills: {{ skill }}</p>
+    <!-- OBJ ATTRIBUTE -->
+    <p>User: {{ user.name }}, Age: {{ user.age }}</p>
+    <!-- Dictionary Access -->
+    <h2>Blog Information</h2>
+    <p>Title:{{blog.title}}</p>
+    <p>Content:{{blog.content}}</p>
+    <p>Content:{{blog.content|safe}}</p>
+    <p>Author:{{blog.author.name}}</p>
+
+    <p>Published:{{blog.created_at}}</p>
+    <!-- Default Value -->
+    <p>Empty Value:{{empty_value|default:"Nothing here"}}</p>
+    <p>Empty Value:{{empty_value|default_if_none:"No Data"}}</p>
+    
+</body>
+</html>
