@@ -1,0 +1,11 @@
+Templates #3
+Tags (Control Flow)
+
+• {% if %}...{% else %}
+• {% for %}...{% empty %}
+• {% with %}
+• {% cycle %} (useful in table rows, alternate colors)
+• {% firstof %} (first available variable)
+• {% now "DATE_FORMAT" %}
+• {% verbatim %} (ignore template parsing)
+• {% autoescape on/off %}
