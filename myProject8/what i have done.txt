@@ -1,0 +1,9 @@
+Django Models & Migrations
+
+Introduction to Models
+
+Create a Model
+
+Migrations and Migration Files
+
+Understand SQLite DB.
