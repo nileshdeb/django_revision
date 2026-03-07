@@ -1,0 +1,11 @@
+Retrieving Data from Database
+
+Django ORM QuerySet
+
+all() → Fetches all records
+
+get() → Fetches single record (error if multiple/none)
+
+filter() → Fetches records with condition
+
+Use Django Shell for Output.
