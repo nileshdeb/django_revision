@@ -9,3 +9,17 @@ get() → Fetches single record (error if multiple/none)
 filter() → Fetches records with condition
 
 Use Django Shell for Output.
+
+_________________________________
+
+Retrieving Data from Database
+
+Ordering & Chaining
+
+exclude() → opposite of filter (skip condition)
+
+values() → returns data as dictionaries
+
+first() / last() → get first or last record
+
+count() → total number of records
