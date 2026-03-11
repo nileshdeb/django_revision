@@ -37,6 +37,7 @@ def logout_view(request):
     messages.success(request, "Logged out successfully.")
     return redirect("login")
 
+@login_required(login_url="login")
 def dashboard_view(request):
     return render(request, "accounts/dashboard.html")
         
